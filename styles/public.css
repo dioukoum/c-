@@ -1,0 +1,23 @@
+.container>.public{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        font-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .container>.public{
+        font-size: 100%;
+    }
+    .container>.public>p:nth-of-type(2)>img{
+        width: 100%;
+    }
+    .container>.public>p:nth-of-type(3)>img{
+        width: 100%;
+    }
+}
